@@ -1,0 +1,137 @@
+#loading{
+    text-align: center;
+    display: none;
+}
+#product{
+    margin-top:80px;
+}
+#product-tags{
+    text-align: right;
+}
+#product-tags li{
+    display: inline-block;
+    font-size: 1em;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    background: #fa558f;
+    color: #fff;
+    cursor: pointer;
+}
+#product-list{
+    margin-top:20px;
+}
+#product-list li{
+    width: 30%;
+    margin: 0 3% 4% 0;
+    float: left;
+    border: 1.5px solid #eee;
+    background: #eaeaea;
+}
+#product-list img{
+    width: 100%;
+}
+#product-list .product-info{
+    padding: 0.8rem 1.2rem;
+}
+#product-list .quantity{
+    display: block;
+    margin:8px 0 8px 0;
+    height: 25px;
+}
+#product-list .btn-add-cart{
+    background: #FF9000;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.7rem 1.5rem;
+    font-size: 1.1rem;
+    display: inline-block;
+    border-radius: 5px;
+    border: 0;
+}
+#load-more{
+    width: 300px;
+    height: 50px;
+    background: #cccccc;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    clear: both;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    display: none;
+
+}
+#categoires{
+    height: 210px;
+    margin-top: 56px;
+}
+#categoires a{
+    float: left;
+    height: 210px;
+}
+#categoires a div{
+    width: 364px;
+    height: 210px;
+    margin-right: 22px;
+}
+.fashion-a{
+     background: url(../img/categoires/bg1.jpg) no-repeat;
+     width: 32%;
+     margin-right: 2%;
+     min-height: 210px;
+ }
+.fashion-b{
+    background: url(../img/categoires/bg2.jpg) no-repeat;
+    width: 32%;
+    margin-right: 2%;
+    min-height: 210px;
+}
+.fashion-c{
+    background: url(../img/categoires/bg3.jpg) no-repeat;
+    width: 32%;
+    margin-right: 2%;
+    min-height: 210px;
+}
+.sections{
+    text-align: right;
+    padding-top: 7rem;
+}
+.sections h4{
+    color: #fff;
+    font-weight: 500;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    padding-right: 15px;
+}
+.sections p{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding-right: 15px;
+
+}
+.caption {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    left: 2%;
+    top: 50%;
+}
+.caption h1 {
+    font-size: 5em;
+    font-weight: 600;
+    margin-bottom: 2px;
+    font-family: 'Raleway', sans-serif;
+}
+.caption p {
+    font-size: 1.15em;
+    font-weight: 400;
+    margin: 0 auto;
+    width: 55%;
+}
