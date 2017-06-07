@@ -1,13 +1,13 @@
 <template>
   <div id="header">
     <common-header></common-header>
-    <common-content></common-content>
+    <!-- <common-content></common-content> -->
   </div>
 </template>
 
 <script>
 import CommonHeader from './CommonHeader'
-import CommonContent from './CommonContent'
+// import CommonContent from './CommonContent'
 export default {
   name: 'hello',
   data () {
@@ -15,7 +15,7 @@ export default {
       //msg: 'Welcome to Your Vue.js App'
     }
   },
-  components:{ CommonHeader,CommonContent }
+  components:{ CommonHeader}
 }
 </script>
 
